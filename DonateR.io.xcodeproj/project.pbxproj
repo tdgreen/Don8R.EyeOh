@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B4AFB4C1C024A340092EC98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4AFB4B1C024A340092EC98 /* AppDelegate.swift */; };
+		5B4AFB4E1C024A340092EC98 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4AFB4D1C024A340092EC98 /* RootViewController.swift */; };
+		5B4AFB501C024A340092EC98 /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4AFB4F1C024A340092EC98 /* DataViewController.swift */; };
+		5B4AFB521C024A340092EC98 /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4AFB511C024A340092EC98 /* ModelController.swift */; };
+		5B4AFB551C024A340092EC98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B4AFB531C024A340092EC98 /* Main.storyboard */; };
+		5B4AFB571C024A340092EC98 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B4AFB561C024A340092EC98 /* Images.xcassets */; };
+		5B4AFB5A1C024A340092EC98 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B4AFB581C024A340092EC98 /* LaunchScreen.xib */; };
+		5B4AFB661C024A340092EC98 /* DonateR_ioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4AFB651C024A340092EC98 /* DonateR_ioTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B4AFB601C024A340092EC98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B4AFB3E1C024A340092EC98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B4AFB451C024A340092EC98;
+			remoteInfo = DonateR.io;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B4AFB461C024A340092EC98 /* DonateR.io.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DonateR.io.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B4AFB4A1C024A340092EC98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B4AFB4B1C024A340092EC98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B4AFB4D1C024A340092EC98 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		5B4AFB4F1C024A340092EC98 /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		5B4AFB511C024A340092EC98 /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		5B4AFB541C024A340092EC98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B4AFB561C024A340092EC98 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5B4AFB591C024A340092EC98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		5B4AFB5F1C024A340092EC98 /* DonateR.ioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DonateR.ioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B4AFB641C024A340092EC98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B4AFB651C024A340092EC98 /* DonateR_ioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonateR_ioTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B4AFB431C024A340092EC98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B4AFB5C1C024A340092EC98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B4AFB3D1C024A340092EC98 = {
+			isa = PBXGroup;
+			children = (
+				5B4AFB481C024A340092EC98 /* DonateR.io */,
+				5B4AFB621C024A340092EC98 /* DonateR.ioTests */,
+				5B4AFB471C024A340092EC98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B4AFB471C024A340092EC98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B4AFB461C024A340092EC98 /* DonateR.io.app */,
+				5B4AFB5F1C024A340092EC98 /* DonateR.ioTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B4AFB481C024A340092EC98 /* DonateR.io */ = {
+			isa = PBXGroup;
+			children = (
+				5B4AFB4B1C024A340092EC98 /* AppDelegate.swift */,
+				5B4AFB4D1C024A340092EC98 /* RootViewController.swift */,
+				5B4AFB4F1C024A340092EC98 /* DataViewController.swift */,
+				5B4AFB511C024A340092EC98 /* ModelController.swift */,
+				5B4AFB531C024A340092EC98 /* Main.storyboard */,
+				5B4AFB561C024A340092EC98 /* Images.xcassets */,
+				5B4AFB581C024A340092EC98 /* LaunchScreen.xib */,
+				5B4AFB491C024A340092EC98 /* Supporting Files */,
+			);
+			path = DonateR.io;
+			sourceTree = "<group>";
+		};
+		5B4AFB491C024A340092EC98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B4AFB4A1C024A340092EC98 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B4AFB621C024A340092EC98 /* DonateR.ioTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B4AFB651C024A340092EC98 /* DonateR_ioTests.swift */,
+				5B4AFB631C024A340092EC98 /* Supporting Files */,
+			);
+			path = DonateR.ioTests;
+			sourceTree = "<group>";
+		};
+		5B4AFB631C024A340092EC98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B4AFB641C024A340092EC98 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B4AFB451C024A340092EC98 /* DonateR.io */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B4AFB691C024A340092EC98 /* Build configuration list for PBXNativeTarget "DonateR.io" */;
+			buildPhases = (
+				5B4AFB421C024A340092EC98 /* Sources */,
+				5B4AFB431C024A340092EC98 /* Frameworks */,
+				5B4AFB441C024A340092EC98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DonateR.io;
+			productName = DonateR.io;
+			productReference = 5B4AFB461C024A340092EC98 /* DonateR.io.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B4AFB5E1C024A340092EC98 /* DonateR.ioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B4AFB6C1C024A340092EC98 /* Build configuration list for PBXNativeTarget "DonateR.ioTests" */;
+			buildPhases = (
+				5B4AFB5B1C024A340092EC98 /* Sources */,
+				5B4AFB5C1C024A340092EC98 /* Frameworks */,
+				5B4AFB5D1C024A340092EC98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B4AFB611C024A340092EC98 /* PBXTargetDependency */,
+			);
+			name = DonateR.ioTests;
+			productName = DonateR.ioTests;
+			productReference = 5B4AFB5F1C024A340092EC98 /* DonateR.ioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B4AFB3E1C024A340092EC98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Trent Green";
+				TargetAttributes = {
+					5B4AFB451C024A340092EC98 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					5B4AFB5E1C024A340092EC98 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 5B4AFB451C024A340092EC98;
+					};
+				};
+			};
+			buildConfigurationList = 5B4AFB411C024A340092EC98 /* Build configuration list for PBXProject "DonateR.io" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B4AFB3D1C024A340092EC98;
+			productRefGroup = 5B4AFB471C024A340092EC98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B4AFB451C024A340092EC98 /* DonateR.io */,
+				5B4AFB5E1C024A340092EC98 /* DonateR.ioTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B4AFB441C024A340092EC98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B4AFB551C024A340092EC98 /* Main.storyboard in Resources */,
+				5B4AFB5A1C024A340092EC98 /* LaunchScreen.xib in Resources */,
+				5B4AFB571C024A340092EC98 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B4AFB5D1C024A340092EC98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B4AFB421C024A340092EC98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B4AFB4E1C024A340092EC98 /* RootViewController.swift in Sources */,
+				5B4AFB521C024A340092EC98 /* ModelController.swift in Sources */,
+				5B4AFB501C024A340092EC98 /* DataViewController.swift in Sources */,
+				5B4AFB4C1C024A340092EC98 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B4AFB5B1C024A340092EC98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B4AFB661C024A340092EC98 /* DonateR_ioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B4AFB611C024A340092EC98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B4AFB451C024A340092EC98 /* DonateR.io */;
+			targetProxy = 5B4AFB601C024A340092EC98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B4AFB531C024A340092EC98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B4AFB541C024A340092EC98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B4AFB581C024A340092EC98 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B4AFB591C024A340092EC98 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B4AFB671C024A340092EC98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B4AFB681C024A340092EC98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B4AFB6A1C024A340092EC98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DonateR.io/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5B4AFB6B1C024A340092EC98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DonateR.io/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5B4AFB6D1C024A340092EC98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DonateR.ioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DonateR.io.app/DonateR.io";
+			};
+			name = Debug;
+		};
+		5B4AFB6E1C024A340092EC98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DonateR.ioTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DonateR.io.app/DonateR.io";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B4AFB411C024A340092EC98 /* Build configuration list for PBXProject "DonateR.io" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B4AFB671C024A340092EC98 /* Debug */,
+				5B4AFB681C024A340092EC98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B4AFB691C024A340092EC98 /* Build configuration list for PBXNativeTarget "DonateR.io" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B4AFB6A1C024A340092EC98 /* Debug */,
+				5B4AFB6B1C024A340092EC98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B4AFB6C1C024A340092EC98 /* Build configuration list for PBXNativeTarget "DonateR.ioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B4AFB6D1C024A340092EC98 /* Debug */,
+				5B4AFB6E1C024A340092EC98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B4AFB3E1C024A340092EC98 /* Project object */;
+}
